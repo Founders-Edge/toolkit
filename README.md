@@ -11,7 +11,10 @@ private repository. This repo contains only skills that are safe and useful to s
 
 | Skill | What it does | Run it when |
 |-------|--------------|-------------|
-| `diligence-review` | Walks a standard pre-seed/seed diligence checklist (Capital, Cap Table, Market, Product, Team, Legal) against your dataroom, marks each item ✅ / 🔴 / 🟠, and writes a "Diligence Review" summary. | Before you start raising — every 🔴 it surfaces is a question an investor will eventually ask. |
+| `deck-review` | Checks your pitch deck for the essentials investors look for (contact info, founder credibility, problem, why-this-team, the ask), runs the solo-founder build/raise/scale test, and applies two investability gates — investable US C-corp, and venture scale (comps that hit >$100M revenue or $1B+ valuation). | Before you send your deck to anyone. |
+| `dataroom-prep` | Builds an investor-ready dataroom — the standard folder structure, what each document must contain, and a gather-list of what's still missing. | When you're getting organized to raise. |
+| `diligence-review` | Walks a standard pre-seed/seed diligence checklist (Capital, Cap Table, Market, Product, Team, Legal) against your dataroom, marks each item ✅ / 🔴 / 🟠, and writes a "Diligence Review" summary. | After building your dataroom — every 🔴 it surfaces is a question an investor will eventually ask. |
+| `investor-update` | Drafts a tight, skimmable investor update (TL;DR, metrics, highlights, lowlights, asks, runway) in your own voice. | Every month once you have investors. |
 
 ## Install
 
