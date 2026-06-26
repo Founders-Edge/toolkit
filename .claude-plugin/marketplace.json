@@ -1,0 +1,19 @@
+{
+  "name": "foundersedge-toolkit",
+  "owner": {
+    "name": "FoundersEdge"
+  },
+  "metadata": {
+    "description": "Founder-facing Claude skills from FoundersEdge — open tools to help founders prepare to raise.",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "foundersedge-toolkit",
+      "source": "./plugins/foundersedge-toolkit",
+      "description": "Open, founder-facing skills from FoundersEdge — starting with a pre-termsheet diligence review.",
+      "version": "1.0.0",
+      "author": { "name": "FoundersEdge" }
+    }
+  ]
+}
