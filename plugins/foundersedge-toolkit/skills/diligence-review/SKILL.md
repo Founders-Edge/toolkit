@@ -292,14 +292,13 @@ option grant templates — these are typically standard and only need a glance t
 
 ## Common dataroom gaps (mark 🔴 when missing)
 
-Many early-stage datarooms ship only formation + cap table docs. The following are frequently
-**missing** and should be flagged:
-- Income statement / P&L (last 3 months) → blocks burn rate verification
-- Cap table summary (Carta export or spreadsheet) → blocks ownership %, SAFE total, warrants
-- Customer contracts / signed LOIs → blocks traction validation
-- Tax filing or "did not file" confirmation → blocks tax check
-- Reference list (3 names + emails) → blocks reference checks
-- Patent/IP filings list → blocks IP check (if the founder claimed any)
+Many early-stage datarooms ship only formation + cap table docs — the financials, traction, and
+team-reference materials are the items most often missing, and each blocks a checklist item.
 
-When these are missing, write the 🔴 entry as a question for the founder, e.g.:
+> The canonical per-section list of what *should* be in a dataroom lives in the **`dataroom-prep`**
+> skill — this skill judges what's present rather than re-specifying the inventory. (If you're a
+> founder finding gaps here, `dataroom-prep` is where you go to build them.)
+
+When a needed document is missing, don't just mark it 🔴 — phrase the entry as a question the
+founder can act on, e.g.:
 "🔴 Burn rate match — no income statement in dataroom; **ask founder for last 3 mo P&L**"

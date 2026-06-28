@@ -71,8 +71,10 @@ a map).
 
 ## Step 3 & 4: What goes in each section
 
-For each section, the required documents and what each must actually contain. Mark what the founder
-has vs. needs.
+This is the **canonical inventory** of what belongs in a dataroom — the `diligence-review` skill
+defers to this list rather than re-specifying it. For each section, the required documents and what
+each must actually contain. Mark what the founder has vs. needs — but do **not** judge or classify
+the contents here; that's `diligence-review`'s job (see handoff in Step 6).
 
 ### 1 — Corporate & Legal
 - **Certificate of Incorporation** — state (Delaware expected), date, authorized shares, par value.
@@ -161,6 +163,9 @@ investor would catch (including the §83(b) deadline tracker). Build here, then 
 
 ## What this skill does NOT do
 
+- It does not judge, score, or classify the documents — assembling the dataroom is this skill's
+  job. To evaluate the finished dataroom (and catch the §83(b) deadline), run the
+  **`diligence-review`** skill. Build here, pressure-test there.
 - It does not provide legal or tax advice — entity, 83(b), and QSBS items are flags to confirm with
   counsel/an accountant.
 - It does not generate the legal documents themselves — it tells you what's needed and what each
