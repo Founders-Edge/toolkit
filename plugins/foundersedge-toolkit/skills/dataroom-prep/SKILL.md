@@ -51,18 +51,22 @@ Ask if not given:
 
 ## Step 2: Scaffold the structure
 
-Create this folder structure (use the folder path the founder gives). These six sections mirror
-the diligence checklist, so the dataroom maps 1:1 to how it'll be reviewed:
+Create this folder structure (use the folder path the founder gives). These six sections use the
+**same names as the `diligence-review` checklist**, so the dataroom maps 1:1 to how it'll be
+reviewed:
 
 ```
 [Company]-Dataroom/
-├── 1-Corporate-and-Legal/
-├── 2-Cap-Table-and-Equity/
-├── 3-Financials/
-├── 4-Market-and-Traction/
-├── 5-Product-and-IP/
-└── 6-Team/
+├── Legal/          # Corporate & legal — formation, bylaws, consents, financing docs
+├── Cap Table/      # Equity — cap table export, SPAs, 83(b), option plan, IP assignment
+├── Capital/        # Financials — P&L, balance sheet, model, tax, use of funds
+├── Traction/       # Market & traction — deck, customer contracts, pipeline, metrics
+├── Product/        # Product & IP — overview, demo, filings
+└── Team/           # Founder bios, references, employment & advisor agreements
 ```
+
+(Diligence-review's checklist sections are Legal, Cap Table, Capital, Market/Traction, Product, and
+Team — these folders match them one-to-one.)
 
 Also drop a top-level `00-START-HERE.md` index listing what's in each folder (investors appreciate
 a map).
@@ -76,53 +80,72 @@ defers to this list rather than re-specifying it. For each section, the required
 each must actually contain. Mark what the founder has vs. needs — but do **not** judge or classify
 the contents here; that's `diligence-review`'s job (see handoff in Step 6).
 
-### 1 — Corporate & Legal
+**Format matters.** The cap table and the financials must be delivered as **spreadsheets or tool
+exports** (`.xlsx` / `.csv` / Google Sheet / Carta link), not as prose write-ups. Investors model
+dilution and stress-test burn *in a spreadsheet* — a narrative summary is a useful supplement but
+never a substitute for the underlying numbers in a workable format.
+
+### Legal — Corporate & Legal
 - **Certificate of Incorporation** — state (Delaware expected), date, authorized shares, par value.
 - **Bylaws**.
 - **Board consents / formation board minutes**.
-- **EIN / tax ID confirmation**.
+- **EIN / tax ID confirmation** — the IRS CP-575 (or equivalent) as its own document, not just an
+  EIN number quoted inside another file.
 - **State qualifications & good-standing certificates** — DE good standing, plus any state where you
   do business.
 - **Indemnification agreements** (if any).
 - **Prior financing docs** — every signed SAFE / convertible note / prior round docs.
 
-### 2 — Cap Table & Equity
-- **Cap table** — a current Carta export or clean spreadsheet showing every holder, fully diluted
-  ownership %, all SAFEs/notes with caps & discounts, warrants, and the option pool.
+### Cap Table — Cap Table & Equity
+- **Cap table (spreadsheet or Carta/Pulley/AngelList export)** — REQUIRED as an actual spreadsheet
+  or tool export showing every holder, shares, fully diluted ownership %, all SAFEs/notes with caps
+  & discounts, warrants, and the option pool. A prose "cap table summary" doc is a helpful
+  supplement but **is not a substitute** — ship the spreadsheet. No cap-table tool yet? Build a
+  clean `.xlsx` from the source documents.
 - **Founder Stock Purchase Agreements (one per founder)** — share counts, vesting schedule,
   acceleration, vesting commencement date.
 - **83(b) election confirmations** — proof each founder filed within 30 days of their stock
   purchase. (This is high-value and often missing — see note below.)
-- **Equity Incentive Plan / option plan** — pool size, board & stockholder approval.
+- **Equity Incentive Plan / option plan** — pool size, board & stockholder approval. If only
+  *proposed* (not yet adopted), include a short status memo saying so.
 - **Option grant records** — any grants made.
-- **PIIA (Proprietary Information & Inventions Assignment) per founder & employee** — confirms IP is
-  assigned to the company.
+- **PIIA / CIIAA (Proprietary Info & Inventions Assignment) per founder & employee** — confirms IP
+  is assigned to the company. These IP-assignment agreements live **here** (with equity), not in Team.
 
-### 3 — Financials
-- **Income statement / P&L** — last 3 months at minimum (this is the #1 thing missing from early
-  datarooms and it blocks burn/runway verification).
+### Capital — Financials
+Ship these as **spreadsheets**, not prose docs (see "Format matters" above).
+- **Income statement / P&L** — last 3 months at minimum, as a spreadsheet (this is the #1 thing
+  missing from early datarooms and it blocks burn/runway verification).
 - **Balance sheet**.
 - **Bank balance / runway summary** — current cash and months of runway.
+- **Financial model / projections** — a forward-looking model (12–24 months) built off the signed
+  contracts plus pipeline: revenue ramp, hiring plan, burn, and runway under the raise. Investors
+  want to see where the money takes you, not only where you've been. Even a simple one-tab
+  spreadsheet beats none.
 - **Tax filings** — last year's, or a written "did not file / not yet required" note.
 - **Use of funds** — how the raise will be spent.
 
-### 4 — Market & Traction
-- **Pitch deck** (current version).
+### Traction — Market & Traction
+- **Pitch deck** (current version) — include the actual **file (PDF)**, not just a link, so it
+  lives with the dataroom.
 - **Customer contracts / signed LOIs / pilot agreements** — proof behind any traction claims.
-- **Sales pipeline** — current opportunities, if any.
-- **Key metrics** — revenue, users, growth, retention, whatever's real.
+- **Sales pipeline** — current opportunities, ideally as a spreadsheet with stage and value.
+- **Key metrics** — a short revenue/usage/growth/retention summary (MRR, active accounts, churn).
 
-### 5 — Product & IP
-- **Product overview / demo link**.
+### Product — Product & IP
+- **Product overview / demo link** — plus screenshots or a short walkthrough.
 - **Patent or trademark filings** — only if the founder has claimed IP; the filings must match the
   claim.
 - **Technical/architecture overview** (optional, light).
 
-### 6 — Team
-- **Founder bios / one-pager** — roles and relevant background.
+### Team
+- **Founder bios / one-pager** — roles and relevant background. Put a copy **here in Team** even if a
+  company overview elsewhere covers it — reviewers look in Team for founder background.
 - **Org chart / key hires** (if any).
-- **Reference list** — 3 references with names + emails (founders forget this; investors will ask).
-- **Key employee/advisor agreements**.
+- **Reference list** — 3 references per founder with names + emails (founders forget this; investors
+  will ask).
+- **Employment & advisor agreements** — offer letters, employment agreements, advisor agreements.
+  (IP-assignment agreements — PIIA/CIIAA — live under Cap Table with equity, not here.)
 
 ---
 
@@ -143,10 +166,13 @@ Produce a checklist of what's still missing, each with a one-line "how to get it
 
 ```markdown
 # [Company] Dataroom — Still to Gather
-- [ ] Last 3 months P&L — export from QuickBooks/Xero or ask your bookkeeper
-- [ ] Cap table — export from Carta (or build the spreadsheet template)
+- [ ] Last 3 months P&L **as a spreadsheet** — export from QuickBooks/Xero or ask your bookkeeper
+- [ ] Cap table **as .xlsx / Carta export** — a prose summary doesn't count
+- [ ] Financial model (12–24 mo) — revenue ramp off signed contracts + pipeline, hiring, burn, runway
+- [ ] Balance sheet
 - [ ] 83(b) confirmations — find the USPS certified-mail receipts / IRS confirmations per founder
-- [ ] 3 reference names + emails
+- [ ] Founder bios one-pager (in Team) + 3 reference names + emails per founder
+- [ ] Pitch deck PDF (the file, not just a link)
 - [ ] Signed customer LOIs — pull from email / DocuSign
 - ...
 ```

@@ -56,7 +56,9 @@ Required inputs (ask if not given):
 ## Step 2: Inventory the dataroom
 
 Use `Glob` to list the folder. Build a quick categorization table — which files map to which
-checklist sections. Common buckets:
+checklist sections. A dataroom built with the `dataroom-prep` skill is already organized into
+`Legal / Cap Table / Capital / Traction / Product / Team` folders that map 1:1 to these sections.
+Common buckets:
 
 | File pattern | Maps to checklist sections |
 |---|---|
