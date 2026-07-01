@@ -136,7 +136,10 @@ Every item gets a one-line evidence pointer: file name + page/section, or "(aske
 **Cap Table**
 
 - [ ] Founders + founding team own ≥80% equity
-- [ ] All founders vesting (or willing to re-vest) over 4 years
+- [ ] All founders vesting (or willing to re-vest) over 4 years — judge the *structure* (4-yr
+  term, 1-yr cliff, acceleration), NOT the specifics: differing commencement dates, unequal share
+  %, and founders still pre-cliff are all normal (✅). Flag only real problems — no vesting, a
+  non-standard term, missing 83(b), or unwillingness to re-vest.
 - [ ] Founder + employee/contractor contracts have IP assignment clause
 - [ ] Less than $1M in SAFEs/Notes on the balance sheet
 - [ ] Prior SAFE/Notes — any equity warrants?
