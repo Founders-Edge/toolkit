@@ -1,6 +1,6 @@
 # FoundersEdge Toolkit
 
-> Open, founder-facing [Claude](https://claude.com/claude-code) skills from **[FoundersEdge](https://foundersedge.vibe)**.
+> Open, founder-facing [Claude](https://claude.com/claude-code) skills from **[FoundersEdge](https://foundersedge.com)**.
 > These are tools we use on the investing side, sanitized and shared so founders can run them on
 > themselves *before* they pitch.
 
@@ -38,10 +38,21 @@ toolkit/
         ├── .claude-plugin/
         │   └── plugin.json        # plugin manifest
         └── skills/
-            └── diligence-review/
-                └── SKILL.md        # the skill definition
+            ├── deck-review/
+            │   └── SKILL.md
+            ├── dataroom-prep/
+            │   └── SKILL.md
+            ├── diligence-review/
+            │   └── SKILL.md
+            └── investor-update/
+                └── SKILL.md
 ```
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). Fixes and improvements to existing skills are welcome;
+new skills should be founder-facing and generally useful, not fund-specific.
 
 ## License
 
-Shared by FoundersEdge for founders to use freely.
+[MIT](LICENSE) — use these skills freely, on yourself or with the founders you work with.
