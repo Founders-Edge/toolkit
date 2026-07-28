@@ -1,11 +1,14 @@
 # FoundersEdge Toolkit
 
-> Open, founder-facing [Claude](https://claude.com/claude-code) skills from **[FoundersEdge](https://foundersedge.com)**.
-> These are tools we use on the investing side, sanitized and shared so founders can run them on
-> themselves *before* they pitch.
+<p align="center">
+  <img src="assets/hero.png" alt="A founder picking tools out of a toolbox at her laptop" width="700">
+</p>
 
-Internal FoundersEdge workflows (CRM automation, deal memos, term sheets) live in a separate
-private repository. This repo contains only skills that are safe and useful to share publicly.
+**Free, open [Claude](https://claude.com/claude-code) skills to help you get ready to raise — from [FoundersEdge](https://foundersedge.com).**
+
+These are the same checks investors run on your company. We think you should get to run them
+first. Point Claude at your deck or dataroom, and these skills will tell you what's strong,
+what's missing, and what an investor will ask about — *before* you're in the room.
 
 ## Skills
 
@@ -16,16 +19,21 @@ private repository. This repo contains only skills that are safe and useful to s
 | `diligence-review` | Walks a standard pre-seed/seed diligence checklist (Capital, Cap Table, Market, Product, Team, Legal) against your dataroom, marks each item ✅ / 🔴 / 🟠, and writes a "Diligence Review" summary. | After building your dataroom — every 🔴 it surfaces is a question an investor will eventually ask. |
 | `investor-update` | Drafts a tight, skimmable investor update (TL;DR, metrics, highlights, lowlights, asks, runway) in your own voice. | Every month once you have investors. |
 
-## Install
+## Get started
 
-These are [Claude Code](https://claude.com/claude-code) skills, distributed as a plugin marketplace.
+You'll need [Claude Code](https://claude.com/claude-code). Then, inside Claude Code:
 
 ```
 /plugin marketplace add Founders-Edge/toolkit
 /plugin install foundersedge-toolkit
 ```
 
-Then just ask Claude, e.g. *"run diligence on my dataroom at ~/Documents/MyCo-dataroom"*.
+That's it. Now just ask in plain English:
+
+> *"Review my pitch deck at ~/Documents/deck.pdf"*
+> *"Help me set up a dataroom"*
+> *"Run diligence on my dataroom at ~/Documents/MyCo-dataroom"*
+> *"Draft my monthly investor update"*
 
 ## What's inside
 
@@ -50,8 +58,8 @@ toolkit/
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Fixes and improvements to existing skills are welcome;
-new skills should be founder-facing and generally useful, not fund-specific.
+Found something a skill gets wrong, or have an idea that would help founders? We'd love the
+help — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
