@@ -85,6 +85,14 @@ exports** (`.xlsx` / `.csv` / Google Sheet / Carta link), not as prose write-ups
 dilution and stress-test burn *in a spreadsheet* — a narrative summary is a useful supplement but
 never a substitute for the underlying numbers in a workable format.
 
+**Redact personal SSNs.** Tax forms and 83(b) election confirmations routinely carry founders'
+personal Social Security numbers, and a dataroom gets shared widely during a raise. When filing
+these documents (Step 3 inventory), check them for SSNs — **ask the founder whether they want
+SSNs redacted before the document goes in** (recommend yes; the company EIN can stay). If they do,
+have them file a redacted copy (SSN masked to last-4 or fully blacked out) and keep the unredacted
+original outside the dataroom. Watch for this on: 83(b) confirmations, personal and company tax
+filings, and any IRS correspondence.
+
 ### Legal — Corporate & Legal
 - **Certificate of Incorporation** — state (Delaware expected), date, authorized shares, par value.
 - **Bylaws**.
@@ -105,7 +113,8 @@ never a substitute for the underlying numbers in a workable format.
 - **Founder Stock Purchase Agreements (one per founder)** — share counts, vesting schedule,
   acceleration, vesting commencement date.
 - **83(b) election confirmations** — proof each founder filed within 30 days of their stock
-  purchase. (This is high-value and often missing — see note below.)
+  purchase. (This is high-value and often missing — see note below.) These usually show the
+  founder's personal SSN — apply the **"Redact personal SSNs"** rule above before filing.
 - **Equity Incentive Plan / option plan** — pool size, board & stockholder approval. If only
   *proposed* (not yet adopted), include a short status memo saying so.
 - **Option grant records** — any grants made.
@@ -122,7 +131,9 @@ Ship these as **spreadsheets**, not prose docs (see "Format matters" above).
   contracts plus pipeline: revenue ramp, hiring plan, burn, and runway under the raise. Investors
   want to see where the money takes you, not only where you've been. Even a simple one-tab
   spreadsheet beats none.
-- **Tax filings** — last year's, or a written "did not file / not yet required" note.
+- **Tax filings** — last year's, or a written "did not file / not yet required" note. If any filing
+  shows a personal SSN (common on early returns and IRS letters), apply the **"Redact personal
+  SSNs"** rule above.
 - **Use of funds** — how the raise will be spent.
 
 ### Traction — Market & Traction
@@ -171,6 +182,7 @@ Produce a checklist of what's still missing, each with a one-line "how to get it
 - [ ] Financial model (12–24 mo) — revenue ramp off signed contracts + pipeline, hiring, burn, runway
 - [ ] Balance sheet
 - [ ] 83(b) confirmations — find the USPS certified-mail receipts / IRS confirmations per founder
+      (redact personal SSNs before filing, per founder's preference)
 - [ ] Founder bios one-pager (in Team) + 3 reference names + emails per founder
 - [ ] Pitch deck PDF (the file, not just a link)
 - [ ] Signed customer LOIs — pull from email / DocuSign
