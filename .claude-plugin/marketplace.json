@@ -12,7 +12,7 @@
       "name": "foundersedge-toolkit",
       "source": "./plugins/foundersedge-toolkit",
       "description": "Open, founder-facing skills from FoundersEdge — starting with a pre-termsheet diligence review.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": { "name": "FoundersEdge" }
     }
   ]

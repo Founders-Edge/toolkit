@@ -24,11 +24,15 @@ they pitch. Contributions are welcome under a few ground rules.
 ## How to contribute
 
 1. Fork the repo and create a branch.
-2. Make your change. Each skill is a single `SKILL.md` under
-   `plugins/foundersedge-toolkit/skills/<skill-name>/`.
+2. Make your change. Each skill lives under `plugins/foundersedge-toolkit/skills/<skill-name>/`.
+   Most are a single `SKILL.md`. A skill that needs code (e.g. `landing-page-review`) can add
+   `scripts/` (standard library only: Python 3, Node.js 22+), `references/` for detail the
+   model reads on demand, and `tests/`. Keep `SKILL.md` the entry point, and state any
+   requirements at its top.
 3. Test it: install the plugin from your fork
    (`/plugin marketplace add <your-fork>` in Claude Code) and run the skill end-to-end
    against a realistic (invented) founder scenario.
+   If the skill has tests, run them too (e.g. `python3 tests/test_scripts.py` in its folder).
 4. Open a pull request. Describe what changed and, for behavior changes, paste a short
    before/after example of the skill's output.
 
