@@ -33,7 +33,9 @@ they pitch. Contributions are welcome under a few ground rules.
    (`/plugin marketplace add <your-fork>` in Claude Code) and run the skill end-to-end
    against a realistic (invented) founder scenario.
    If the skill has tests, run them too (e.g. `python3 tests/test_scripts.py` in its folder).
-4. Open a pull request. Describe what changed and, for behavior changes, paste a short
+4. If you changed a skill that has a ZIP in `downloads/`, rebuild it from the `skills/` folder
+   (`zip -r ../../../downloads/<skill-name>.zip <skill-name>`).
+5. Open a pull request. Describe what changed and, for behavior changes, paste a short
    before/after example of the skill's output.
 
 ## Style for skills
